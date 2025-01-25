@@ -16,22 +16,15 @@ To run the model, you need the following Python libraries:
 - Pandas
 - Matplotlib
 - OpenCV (for image processing)
-  
-You can install the dependencies using pip:
-```bash
-git clone [repository-url]
-Install required Python packages:
-bash
-Copy
-pip install -r requirements.txt
-## Usage
+
+Usage
 Open the Disease_detection.ipynb notebook in Jupyter.
 Follow the steps in the notebook to load the potato plant images and run the model to detect diseases.
 The model classifies images into disease categories and provides accuracy metrics for the evaluation.
-## Dataset
+Dataset
 The model uses a dataset of potato plant images labeled with different diseases. Make sure to download the dataset and place it in the appropriate folder, or use your custom dataset for testing.
 
-## Model Details
+Model Details
 Model Type: Convolutional Neural Network (CNN)
 Framework: TensorFlow/Keras
 Data Augmentation: Applied to enhance the generalization of the model.
